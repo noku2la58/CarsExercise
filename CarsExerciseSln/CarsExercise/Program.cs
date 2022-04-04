@@ -6,9 +6,9 @@ namespace CarsExercise
     {
         static void Main(string[] args)
         {
-            Car myCar = new Car(2003, "Jazz", 0);
-            myCar.Colour = "Red";
-            myCar.DriveFaster(20);
+            Car KIW= new Car(1999, "E -class", 0);
+            KIW.Colour = "Red";
+            KIW.DriveFaster(20);
            
             Car angelsCar = new Car(2022, "Porsche", 0);
             angelsCar.Colour = "Pink";
@@ -16,6 +16,9 @@ namespace CarsExercise
 
             Console.WriteLine("Allans Jazz car: " + myCar.Speed);
             Console.WriteLine("Angels Pink car: " + angelsCar.Speed);
+
+            Console.WriteLine("KIW" + KIW.Make);
+            Console.WriteLine(KIW.Speed);
            
             /*
             
