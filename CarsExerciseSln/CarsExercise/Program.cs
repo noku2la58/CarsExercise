@@ -14,7 +14,7 @@ namespace CarsExercise
             angelsCar.Colour = "Pink";
             angelsCar.DriveFaster(120);
 
-            Console.WriteLine("Allans Jazz car: " + myCar.Speed);
+            Console.WriteLine("Allans Jazz car: " + Car.Speed);
             Console.WriteLine("Angels Pink car: " + angelsCar.Speed);
 
             Console.WriteLine("KIW" + KIW.Make);
